@@ -16,3 +16,15 @@ praktikum 3
 <img width="1440" height="900" alt="Screenshot 2026-03-12 at 22 48 47" src="https://github.com/user-attachments/assets/2ed0e9c7-8efd-4377-83d3-7852e5310d03" />
 <img width="1440" height="900" alt="Screenshot 2026-03-12 at 22 59 56" src="https://github.com/user-attachments/assets/60293c19-2713-444d-acd8-91b3abf118f2" />
 <img width="1440" height="900" alt="Screenshot 2026-03-12 at 23 00 02" src="https://github.com/user-attachments/assets/5e471477-9db0-44e3-8568-b0bdcb930d34" />
+
+praktikum 4
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 22 05 21" src="https://github.com/user-attachments/assets/6fe2aa29-26b7-4d4b-b4c4-30091cfd1c3a" />
+
+praktikum 5
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 23 34" src="https://github.com/user-attachments/assets/35f7e7eb-2ee9-4011-a24c-4f61d4aa6482" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 23 42" src="https://github.com/user-attachments/assets/0317df7e-931d-4796-a9a6-15e7c459d56a" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 23 52" src="https://github.com/user-attachments/assets/43b770e2-aadd-47cd-b490-afb9255981f5" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 06" src="https://github.com/user-attachments/assets/a9e20a8e-2b65-44a5-a408-d38d76dc15a1" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 15" src="https://github.com/user-attachments/assets/9853b041-08b3-4e7a-b775-075fcb66482d" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 21" src="https://github.com/user-attachments/assets/f1a495f4-425d-4147-9a7c-255a2af0c52b" />
+<img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 39" src="https://github.com/user-attachments/assets/d3749a60-b415-4c3f-b60f-e09f20871359" />

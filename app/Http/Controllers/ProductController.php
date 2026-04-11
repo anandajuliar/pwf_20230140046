@@ -6,6 +6,8 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
+use App\Http\Requests\StoreProductRequest;
+use App\Http\Requests\UpdateProductRequest;
 
 class ProductController extends Controller
 {
@@ -53,6 +55,8 @@ class ProductController extends Controller
 
     public function update(Request $request, Product $product)
     {
+        Gate::authorize('update', $product);
+        
         $request->validate([
             'name' => 'required|string|max:255',
             'qty' => 'required|integer|min:1',

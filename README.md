@@ -28,3 +28,7 @@ praktikum 5
 <img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 15" src="https://github.com/user-attachments/assets/9853b041-08b3-4e7a-b775-075fcb66482d" />
 <img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 21" src="https://github.com/user-attachments/assets/f1a495f4-425d-4147-9a7c-255a2af0c52b" />
 <img width="1440" height="900" alt="Screenshot 2026-04-10 at 23 24 39" src="https://github.com/user-attachments/assets/d3749a60-b415-4c3f-b60f-e09f20871359" />
+
+praktikum 6
+<img width="1440" height="900" alt="Screenshot 2026-04-11 at 09 16 36" src="https://github.com/user-attachments/assets/85d850df-0ed2-4b48-b7ea-3516c3dc174e" />
+<img width="1440" height="900" alt="Screenshot 2026-04-11 at 09 17 39" src="https://github.com/user-attachments/assets/db3e378c-19e0-4be4-8b57-98188e3fa8e1" />

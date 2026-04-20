@@ -10,9 +10,20 @@
                 <p><strong>Quantity:</strong> {{ $product->qty }}</p>
                 <p><strong>Harga:</strong> Rp {{ number_format($product->price, 0, ',', '.') }}</p>
                 
-                <div class="mt-6">
-                    <a href="{{ route('product.index') }}" class="bg-gray-500 text-white px-4 py-2 rounded">Kembali</a>
+                <div class="mt-6 flex items-center gap-2">
+                    <a href="{{ route('product.index') }}" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition duration-150">
+                        Kembali
+                    </a>
+                    
+                    @can('update', $product)
+                        <x-edit-button :url="route('product.edit', $product->id)" />
+                    @endcan
+
+                    @can('delete', $product)
+                        <x-delete-button :url="route('product.destroy', $product->id)" />
+                    @endcan
                 </div>
+
             </div>
         </div>
     </div>

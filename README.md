@@ -32,3 +32,6 @@ praktikum 5
 praktikum 6
 <img width="1440" height="900" alt="Screenshot 2026-04-11 at 09 16 36" src="https://github.com/user-attachments/assets/85d850df-0ed2-4b48-b7ea-3516c3dc174e" />
 <img width="1440" height="900" alt="Screenshot 2026-04-11 at 09 17 39" src="https://github.com/user-attachments/assets/db3e378c-19e0-4be4-8b57-98188e3fa8e1" />
+
+praktikum 7
+<img width="1440" height="900" alt="Screenshot 2026-04-20 at 20 56 46" src="https://github.com/user-attachments/assets/d78921a7-445a-4dec-a01f-9646660666c6" />

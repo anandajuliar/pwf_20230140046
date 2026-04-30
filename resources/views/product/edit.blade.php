@@ -15,6 +15,18 @@
                         @error('name') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
                     </div>
                     <div class="mb-4">
+    <label class="block text-gray-700">Kategori</label>
+    <select name="category_id" class="w-full border rounded p-2" required>
+        <option value="">-- Pilih Kategori --</option>
+        @foreach($categories as $category)
+            <option value="{{ $category->id }}" {{ $product->category_id == $category->id ? 'selected' : '' }}>
+                {{ $category->name }}
+            </option>
+        @endforeach
+    </select>
+    @error('category_id') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
+</div>
+                    <div class="mb-4">
                         <label class="block text-gray-700">Quantity</label>
                         <input type="number" name="qty" value="{{ old('qty', $product->qty) }}" class="w-full border rounded p-2">
                         @error('qty') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror

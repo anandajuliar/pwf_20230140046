@@ -15,11 +15,20 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
-                        {{ __('About') }}
-                    </x-nav-link>
+                    
                     <x-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                         {{ __('Product') }}
+                    </x-nav-link>
+
+                    <!-- MENU CATEGORY DITAMBAHKAN DI SINI -->
+                    @can('manage-categories')
+                        <x-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                            {{ __('Category') }}
+                        </x-nav-link>
+                    @endcan
+
+                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
+                        {{ __('About') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -76,12 +85,21 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
-                {{ __('About') }}
-            </x-nav-link>
+            
             <x-responsive-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                 {{ __('Product') }}
             </x-responsive-nav-link>
+
+            <!-- MENU CATEGORY RESPONSIVE DITAMBAHKAN DI SINI -->
+            @can('manage-categories')
+                <x-responsive-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                    {{ __('Category') }}
+                </x-responsive-nav-link>
+            @endcan
+
+            <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
+                {{ __('About') }}
+            </x-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->

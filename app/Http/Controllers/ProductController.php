@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
@@ -13,14 +14,16 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $products = Product::all();
+        $products = Product::all(); 
         return view('product.index', compact('products'));
     }
 
     public function create()
     {
         Gate::authorize('export-product');
-        return view('product.create');
+
+        $categories = Category::all(); 
+        return view('product.create', compact('categories'));
     }
 
     public function store(Request $request)
@@ -29,12 +32,14 @@ class ProductController extends Controller
 
         $request->validate([
             'name' => 'required|string|max:255',
+            'category_id' => 'required|exists:category,id',
             'qty' => 'required|integer|min:1',
             'price' => 'required|numeric|min:0',
         ]);
 
         Product::create([
             'user_id' => Auth::id(),
+            'category_id' => $request->category_id,
             'name' => $request->name,
             'qty' => $request->qty,
             'price' => $request->price,
@@ -50,7 +55,8 @@ class ProductController extends Controller
 
     public function edit(Product $product)
     {
-        return view('product.edit', compact('product'));
+        $categories = Category::all(); 
+        return view('product.edit', compact('product', 'categories'));
     }
 
     public function update(Request $request, Product $product)
@@ -59,6 +65,7 @@ class ProductController extends Controller
         
         $request->validate([
             'name' => 'required|string|max:255',
+            'category_id' => 'required|exists:category,id',
             'qty' => 'required|integer|min:1',
             'price' => 'required|numeric|min:0',
         ]);

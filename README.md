@@ -41,3 +41,14 @@ UTS
 <img width="1440" height="900" alt="Screenshot 2026-04-30 at 17 02 24" src="https://github.com/user-attachments/assets/a2d77717-a363-4943-b578-9df37fb6e25b" />
 <img width="1440" height="900" alt="Screenshot 2026-04-30 at 17 10 59" src="https://github.com/user-attachments/assets/bcaf6fea-4e55-4153-803b-fe74ff43a8da" />
 
+praktikum 9
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 03 35" src="https://github.com/user-attachments/assets/9e35835a-8881-4ab9-b91a-7fc6afbd580d" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 03 41" src="https://github.com/user-attachments/assets/14b40089-38dc-452c-ba9a-5eb30f058689" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 03 44" src="https://github.com/user-attachments/assets/7249d20b-d9f9-41b2-8ff8-4793847af321" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 03 51" src="https://github.com/user-attachments/assets/4362bed9-892b-4ee9-859b-1c837157f9ef" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 03 55" src="https://github.com/user-attachments/assets/8704d4eb-6b87-432c-99d2-3f3022f1b22f" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 04 11" src="https://github.com/user-attachments/assets/46e3798e-1851-478b-b689-cad8c4494159" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 04 15" src="https://github.com/user-attachments/assets/fa99f299-b223-4638-8472-c1061072a2d1" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 04 19" src="https://github.com/user-attachments/assets/6c914771-1124-4c33-a999-c6e3487ba1bc" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 04 22" src="https://github.com/user-attachments/assets/1add4356-5ecc-4ce1-89a7-110efbd74924" />
+<img width="1440" height="900" alt="Screenshot 2026-05-05 at 21 04 26" src="https://github.com/user-attachments/assets/4924e4d5-4899-4eb0-9cb5-1793f82302bb" />

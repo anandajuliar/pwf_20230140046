@@ -35,3 +35,9 @@ praktikum 6
 
 praktikum 7
 <img width="1440" height="900" alt="Screenshot 2026-04-20 at 20 56 46" src="https://github.com/user-attachments/assets/d78921a7-445a-4dec-a01f-9646660666c6" />
+
+UTS
+<img width="1440" height="900" alt="Screenshot 2026-04-30 at 17 00 23" src="https://github.com/user-attachments/assets/e8ef2897-ac03-404f-aff0-3162e5037b99" />
+<img width="1440" height="900" alt="Screenshot 2026-04-30 at 17 02 24" src="https://github.com/user-attachments/assets/a2d77717-a363-4943-b578-9df37fb6e25b" />
+<img width="1440" height="900" alt="Screenshot 2026-04-30 at 17 10 59" src="https://github.com/user-attachments/assets/bcaf6fea-4e55-4153-803b-fe74ff43a8da" />
+
